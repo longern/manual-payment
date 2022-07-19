@@ -1,8 +1,13 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width">
     <script>
       const params = new URLSearchParams(window.location.search);
-      window.location.href = params.get("redirect");
+      const redirect_url = params.get("redirect");
+      if (redirect_url) window.location.href = redirect_url;
     </script>
   </head>
+  <body>
+    <main>Please pay manually</main>
+  </body>
 </html>
