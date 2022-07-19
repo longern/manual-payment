@@ -1,0 +1,16 @@
+{
+  "name": "Manual Pay",
+  "description": "Manual payment method",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1077/1077976.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ],
+  "serviceworker": {
+    "src": "service-worker.js",
+    "scope": "/",
+    "use_cache": false
+  },
+}
