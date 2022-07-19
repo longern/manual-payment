@@ -8,7 +8,7 @@ No actual payments happen. It just redirects to your page which shows payment in
 const paymentRequest = new PaymentRequest(
   [{
     supportedMethods: "https://manual-payment.pages.dev/",
-    data: { redirect_url: "https://baidu.com" },
+    data: { redirect_url: "https://google.com" },
   }],
   {
     total: {
